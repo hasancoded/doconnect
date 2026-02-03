@@ -1,0 +1,39 @@
+{
+  "name": "doconnect",
+  "version": "1.0.0",
+  "description": "Doconnect - Medical Professional Marketplace",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "build:prod": "cd client && npm run build",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "start:prod": "cd server && npm start",
+    "deploy:build": "npm run build:prod",
+    "test:server": "cd server && npm test",
+    "test:client": "cd client && npm test"
+  },
+  "keywords": [
+    "medical",
+    "marketplace",
+    "doctors",
+    "freelance",
+    "healthcare"
+  ],
+  "author": "Hasan",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7"
+  }
+}
