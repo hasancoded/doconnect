@@ -432,7 +432,7 @@ For issues, questions, or contributions:
 - **Documentation**: Check the `docs/` folder for detailed guides
 - **API Reference**: See [API_REFERENCE.md](./docs/API_REFERENCE.md)
 - **Issues**: Open an issue on GitHub
-- **Email**: support@doconnect.com
+- **Email**: hassanmubarak007@gmail.com
 
 ---
 
