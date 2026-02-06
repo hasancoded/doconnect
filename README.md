@@ -175,7 +175,7 @@ doconnect/
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/hasan6-9/doconnect.git
+   git clone https://github.com/hasancoded/doconnect.git
    cd doconnect
    ```
 
